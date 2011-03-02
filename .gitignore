@@ -1,1 +1,7 @@
 *.pyc
+*.orig
+*.db
+*.egg
+*~
+*.tmp
+*.egg-info

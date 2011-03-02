@@ -68,17 +68,20 @@ class TestApi(unittest.TestCase):
             e.errors
 
     def test_modify_tags(self):
-        datatype.add_tag(,,,)
-        datatype.remove_tag(,,,)
+        #datatype.add_tag(,,,)
+        #datatype.remove_tag(,,,)
+        pass
 
 
     def test_modify_constraints(self):
-        datatype.add_constraints(,,,)
-        datatype.remove_constraints(,,,)
+        #datatype.add_constraints(,,,)
+        #datatype.remove_constraints(,,,)
+        pass
         
 
     def test_updating_field_and_saving_save_data_to_db(self):
-        datatype.add_tag(,,,)
+        #datatype.add_tag(,,,)
+        pass
 
 
     def test_updating_field_and_saving_save_data_to_db_only_if_it_changed(self):
