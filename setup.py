@@ -11,6 +11,6 @@ setup(name='datadict',
       url='https://github.com/mangroveorg/datadict',
       packages=find_packages('.'),
       install_requires=['CouchDB'],
-      licence='BSD'
+      license='BSD'
 )
 
