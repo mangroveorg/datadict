@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-from distutils.core import setup
+from setuptools import setup
 import os
 import sys
 
@@ -35,8 +35,6 @@ def get_packages(datadict_dir):
     """
     packages, data_files = [], []
 
-    import ipdb; ipdb.set_trace()
-
     for dirpath, dirnames, filenames in os.walk(datadict_dir):
         # Ignore dirnames that start with '.'
         for i, dirname in enumerate(dirnames):
@@ -51,6 +49,7 @@ def get_packages(datadict_dir):
 packages, data_files = get_packages('datadict')
 
 setup(
+    name='datadict',
     version = __import__('datadict').__version__,
     packages = packages,
     data_files = data_files,
