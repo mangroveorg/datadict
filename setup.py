@@ -58,6 +58,6 @@ setup(
     author_email='mangrove@googlegroups.com',
     url='https://github.com/mangroveorg/datadict',
     install_requires=['CouchDB'],
-    licence='BSD'
+    license='BSD'
 )
 
