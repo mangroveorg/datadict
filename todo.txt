@@ -1,0 +1,4 @@
+versioning = date
+booltype
+constraints = choice list
+cron to check for changes and alert subscribber
