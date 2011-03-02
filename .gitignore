@@ -4,4 +4,4 @@
 *.egg
 *~
 *.tmp
-
+*.egg-info
